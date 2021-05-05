@@ -2,9 +2,23 @@ body {
     background-color: lightcoral;
     color:blue;
     font-size: medium;
+    text-align: center;
+    
   }
-
-
   
 
-   
+  h1{
+    font-family:'Times New Roman', Times, serif}
+    
+  img {
+  
+    display:inline-block;
+  }
+ 
+  
+
+  table{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+ 
