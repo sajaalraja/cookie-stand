@@ -132,17 +132,22 @@ data.prototype.randomNumber = function () {
   
   footerr();
   
-  
-  
-  
-  
-          
-  
-  
-  
-  
-  
-    
+  let countryform  = document.getElementById('countryform');
+countryform.addEventListener('submit', addcountry);
+function addcountry(event) {
+  event.preventDefault();
 
+  let name = event.target.name.value;
+  let mincust = event.target.mincust.value;
+  let maxcust= event.target.maxcust.value;
+  let avgcust=event.target.avgcust.value;
 
-
+  let newcountry = new data(name, mincust, maxcust,avgcust)
+  newcountry.randomNumber();
+  newcountry.salescookies();
+  newcountry.bodytable();
+  
+  
+  
+  
+}
