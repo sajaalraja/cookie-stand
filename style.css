@@ -10,15 +10,84 @@ body {
   h1{
     font-family:'Times New Roman', Times, serif}
     
-  img {
   
-    display:inline-block;
-  }
  
-  
-
   table{
-    font-family: 'Times New Roman', Times, serif;
+    
+     
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
+    font-size: medium;
+    margin-left: 300px;
+    border: 1px solid green;
   }
- 
+
+  td{
+   background-color: chartreuse;
+   border: 1px solid brown
+  }
+  
+  tr{
+    background-color: gold;
+   border: 1px solid red;
+   font-size: medium; 
+  }
+ form{
+
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+text-align: center;
+
+ }
+
+ #f7{
+background-color: crimson;
+color: darkgreen;
+font-size: medium;
+height: 60px;
+
+ }
+
+  
+ main>img{
+width:200px;
+height: 200px;
+display: inline-block;
+
+padding: 50px;
+border: 1px solid peru;
+
+ }  
+
+    main>h1{
+text-align:center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:indigo;
+font-weight: bold;
+border: 1px solid red;
+
+    }
+
+    ul{
+font-size:  50px; 
+margin-right:1200px;
+color: rgb(65, 4, 4);
+text-align: center;
+
+    }
+   
+   
+    main>p{
+
+font-family: sans-serif;
+font-weight: lighter;
+text-align: left;
+color:khaki;
+font-style: italic;
+text-align: left;
+
+
+    }
+  
+    
